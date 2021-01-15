@@ -1,0 +1,44 @@
+@import url("/css/styles.css");
+
+.form{
+    margin: 30px 50px;
+}
+
+.field{
+    margin: 15px;
+}
+
+.input-label{
+    font-family: sans-serif;
+    color: #155a6f;
+}
+
+.input-field{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #155a6f;
+}
+
+.submit{
+    margin: 0px 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    border: none;
+    background-color: green;
+    color: white;
+}
+
+.cancel{
+    margin: 0px 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+.cover{
+    margin: 10px;
+    width: 200px;
+}

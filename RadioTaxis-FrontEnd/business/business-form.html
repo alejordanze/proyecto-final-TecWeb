@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Radio Taxis Web | Formulario</title>
+
+        <link rel="stylesheet" href="/css/business-form.css">
+
+        <script src="/jquery-3.3.1.js"></script>
+        <script> 
+            $(function(){
+              $("#header").load("/header.html"); 
+            });
+        </script> 
+        <script src="business-form.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <h1 class="title">Formulario Empresa</h1>
+        <form class="form" id="form" method="post">
+            <div class="field">
+                <label class="input-label">Nombre: </label>
+                <input id="name" class="input-field" type="text">
+            </div>
+            <div class="field">
+                <label class="input-label">Fecha de fundación: </label>
+                <input id="foundationDate" class="input-field" type="date">
+            </div>
+            <div class="field">
+                <label class="input-label">Latitud:</label>
+                <input id="latitude" class="input-field" type="text">
+            </div>
+            <div class="field">
+                <label class="input-label">Longitud:</label>
+                <input id="longitude" class="input-field" type="text">
+            </div>
+
+            <div class="field">
+                <label class="input-label">Logo:</label>
+                <input id="logo" class="input-field" type="text">
+                <img id="logo-img" class="cover">
+            </div>
+
+            <input class="submit" value="Guardar" type="submit">
+            <button type="button" class="cancel" onclick="cancel()">Cancelar</button>
+        </form>
+    </body>
+</html>

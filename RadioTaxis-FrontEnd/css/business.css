@@ -1,0 +1,29 @@
+@import url("/css/styles.css");
+
+.business{
+    margin: 50px;
+
+}
+
+.cover{
+    width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.data{
+    font-family: sans-serif;
+    display: block;
+    margin: auto;
+}
+
+.label{
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+
+.drivers{
+    list-style-type: none;
+    margin: 50px;
+}

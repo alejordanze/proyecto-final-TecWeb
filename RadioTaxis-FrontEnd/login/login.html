@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Radio Taxis Web | Login </title>
+
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+        <link rel="stylesheet" href="/css/login.css">
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
+
+        <script src="/login/login.js"></script>
+    </head>
+    <body>
+        <div class="card" id="card">
+            <h1 id="Title" class="login-title">Inicio de sesión</h1>
+            <div class="card-content">
+                <form class="form" id="form" method="post">
+                    <div class="field">
+                        <label class="input-label">Email: </label>
+                        <input id="email" class="input-field" type="text">
+                    </div>
+                    <div class="field">
+                        <label class="input-label">Contraseña: </label>
+                        <input id="password" class="input-field" type="password">
+                    </div>
+
+                    <input type="checkbox" onclick="showPassword()" class="show">
+                    <label class="input-label">Mostrar contraseña:</label>
+
+                    <button type="submit" class="button login">Iniciar Sesión</button>
+                    <a class="register" href="/login/register-form.html">Registrarse</a>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+

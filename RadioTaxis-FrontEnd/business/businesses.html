@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Radio Taxis Web | Empresas</title>
+
+        <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/businesses.css">
+
+        <script src="/jquery-3.3.1.js"></script>
+        <script> 
+            $(function(){
+              $("#header").load("/header.html"); 
+            });
+        </script> 
+        <script src="businesses.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <h1 class="title">Empresas</h1>
+    
+        <div class="businesses">
+            <button class="button view mg10" onclick="newBusiness()">Nuevo</button>
+            <!-- <a class="button download mg10" href="https://localhost:5001/api/movies/moviesToCsv" download>Descargar Lista</a> -->
+            <div class="container">
+                <div class="row">
+                </div>
+            </div>
+            
+            <div class="filters">
+                <button class="button view" onclick="orderBy('name')">Ordenar por Nombre</button>
+                <button class="button edit" onclick="orderBy('f')">Ordenar por Fundacion</button>
+                <button class="button delete" onclick="orderBy('id')">Ordenar por Id</button>
+            </div>
+        </div>
+
+        <script src="/css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

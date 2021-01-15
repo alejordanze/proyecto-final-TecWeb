@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Radio Taxis Web | Empresa </title>
+
+        <link rel="stylesheet" href="/css/business.css">
+        <link rel="stylesheet" href="/css/drivers.css">
+
+        <script src="/jquery-3.3.1.js"></script>
+        <script> 
+            $(function(){
+              $("#header").load("/header.html"); 
+              $("#drivers").load("/drivers/drivers.html"); 
+            });
+        </script> 
+        <script src="business.js"></script>
+        <script src="/drivers/drivers.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div class="business">
+            <h1 id="Title" class="title"></h1>
+            <img src="" class="cover" id="logo">
+            
+            <div class="data" id="data">
+                <label id="name" class="label"></label>
+                <label id="foundationDate" class="label"></label>
+                <label id="latitude" class="label"></label>
+                <label id="longitude" class="label"></label>
+                <!-- <div id="drivers" class="drivers"></div> -->
+            </div>
+        </div>
+
+        <div id="drivers" class="drivers">
+            
+        </div>
+    </body>
+</html>
+

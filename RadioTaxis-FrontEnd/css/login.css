@@ -1,0 +1,65 @@
+@import url("/css/styles.css");
+
+.login-title{
+    padding: 30px;
+    font-family: sans-serif;
+    color: #155a6f;
+    font-size: 22px;
+    text-align: center;
+}
+.card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 350px;
+    margin: 6rem auto 8.1rem auto;
+    width: 329px;
+}
+
+.card-content {
+    padding: 12px 44px;
+}
+
+.field{
+    margin: 20px 0;
+}
+
+.input-label{
+    font-family: sans-serif;
+    color: #155a6f;
+}
+
+.input-field{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #155a6f;
+}
+
+.button{
+    padding: 10px;
+    font-family: sans-serif;
+    border: none;
+    margin: auto;
+    display: block;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.login{
+    background-color: #155a6f;
+    color: white;
+}
+
+.register{
+    text-decoration: none;
+    color:  #155a6f;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.register:hover{
+    cursor: pointer;
+}

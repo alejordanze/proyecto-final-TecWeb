@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Radio Taxis Web | Registro</title>
+
+        <link rel="stylesheet" href="/css/register-form.css">
+
+        <script src="register-form.js"></script>
+    </head>
+    <body>
+
+        <div class="card" id="card">
+            <h1 id="Title" class="login-title">Formulario Registro</h1>
+            <div class="card-content">
+                <form class="form" id="form" method="post">
+                    <div class="field">
+                        <label class="input-label">Email: </label>
+                        <input id="email" class="input-field" type="text">
+                    </div>
+                    <div class="field">
+                        <label class="input-label">Contraseña: </label>
+                        <input id="password" class="input-field" type="password">
+                    </div>
+                    <div class="field">
+                        <label class="input-label">Confirmación contraseña:</label>
+                        <input id="confirmPassword" class="input-field" type="password">
+                    </div>
+                    
+                    <input type="checkbox" onclick="showPasswords()" class="show">
+                    <label class="input-label">Mostrar contraseñas:</label>
+        
+                    <input class="button login" value="Registrarse" type="submit">
+                    <button type="button" class="button delete" onclick="cancel()">Cancelar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

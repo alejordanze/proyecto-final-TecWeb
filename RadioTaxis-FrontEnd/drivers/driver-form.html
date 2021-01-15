@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Radio Taxis Web | Formulario</title>
+
+        <link rel="stylesheet" href="/css/business-form.css">
+
+        <script src="/jquery-3.3.1.js"></script>
+        <script> 
+            $(function(){
+              $("#header").load("/header.html"); 
+            });
+        </script> 
+        <script src="driver-form.js"></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <h1 class="title">Formulario Conductor</h1>
+        <form class="form" id="form" method="post">
+            <div class="field">
+                <label class="input-label">Nombre completo: </label>
+                <input id="fullName" class="input-field" type="text">
+            </div>
+            <div class="field">
+                <label class="input-label">Fecha de nacimiento: </label>
+                <input id="birthDate" class="input-field" type="date">
+            </div>
+
+            <div class="field">
+                <label class="input-label">Genero:</label>
+                <select class="input-field" id="gender">
+                    <option name="F" value="F">Femenino</option>
+                    <option name="M" value="M">Masculino</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label class="input-label">Categoria:</label>
+                <select class="input-field" id="categoria">
+                    <option name="M" value="M">M</option>
+                    <option name="P" value="P">P</option>
+                    <option name="A" value="A">A</option>
+                    <option name="B" value="B">B</option>
+                    <option name="C" value="C">C</option>
+                </select>
+            </div>
+            
+            <div class="field">
+                <label class="input-label">CI: </label>
+                <input id="ci" class="input-field" type="number">
+            </div>
+
+            <div class="field">
+                <label class="input-label">Expedido en:</label>
+                <select class="input-field" id="expedido">
+                    <option name="CB" value="CB">CB</option>
+                    <option name="SCZ" value="SCZ">SCZ</option>
+                    <option name="LPZ" value="LPZ">LPZ</option>
+                    <option name="TRJ" value="TRJ">TRJ</option>
+                    <option name="SUC" value="SUC">SUC</option>
+                    <option name="OR" value="OR">OR</option>
+                    <option name="PTS" value="PTS">PTS</option>
+                    <option name="BN" value="BN">BN</option>
+                    <option name="PA" value="PA">PA</option>
+                </select>
+            </div>
+            <div class="field">
+                <label class="input-label">Placa vehiculo: </label>
+                <input id="placa" class="input-field" type="text">
+            </div>
+            <input class="submit" value="Guardar" type="submit">
+            <button type="button" class="cancel" onclick="cancel()">Cancelar</button>
+        </form>
+    </body>
+</html>

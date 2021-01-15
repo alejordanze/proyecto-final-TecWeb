@@ -1,0 +1,23 @@
+@import url("/css/styles.css");
+@import url("/css/login.css");
+
+.card{
+    height: 420px;
+}
+
+.button{
+    padding: 10px;
+    font-family: sans-serif;
+    border: none;
+    display: inline;
+}
+
+.delete{
+    background-color: red;
+    color: white;
+}
+
+.show{
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
